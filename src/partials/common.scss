@@ -1,1 +1,13 @@
+body {
+    font-family: $font_family;
+    font-size: $font_size;
+    line-height: $line_height;
+}
 
+.container {
+    width: $spacing * 110;
+}
+
+h2, ul {
+    color: $colore_menu;
+}

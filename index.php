@@ -44,20 +44,67 @@ $lista_faq = [
         <meta charset="utf-8">
         <!-- css -->
         <link rel="stylesheet" href="dist/app.css">
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
         <title>Google FAQ</title>
     </head>
     <body>
-        <?php
-            foreach ($lista_faq as $faq) {
-        ?>
-            <h2><?php
-                echo $faq['domanda'];
-            ?></h2>
-            <p><?php
-                echo $faq['risposta'];
-            ?></p>
-        <?php
-            }
-        ?>
+        <div class="container">
+            <header>
+                <div class="container-header">
+                    <div class="header-top">
+                        <div class="header-top-left">
+                            <div class="logo">
+                                <img src="" alt="logo-img">
+                            </div>
+                            <h2>Privacy e termini</h2>
+                        </div>
+                        <div class="header-top-right">
+                            <!-- icona fontaw + img user -->
+                        </div>
+                    </div>
+                    <div class="header-bottom">
+                        <div class="navbar">
+                            <ul>
+                                <li><a href="#">Introduzione</a></li>
+                                <li><a href="#">Norme sulla privacy</a></li>
+                                <li><a href="#">Termini di servizio</a></li>
+                                <li><a href="#">Tecnologie</a></li>
+                                <li><a href="#">Domande frequenti</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <?php
+                    foreach ($lista_faq as $faq) {
+                ?>
+                    <h2><?php
+                        echo $faq['domanda'];
+                    ?></h2>
+                    <p><?php
+                        echo $faq['risposta'];
+                    ?></p>
+                <?php
+                    }
+                ?>
+            </main>
+            <footer>
+                <div class="footer-left">
+                    <ul>
+                        <li><a href="#">Google</a></li>
+                        <li><a href="#">Tutto su Google</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Termini</a></li>
+                    </ul>
+                </div>
+                <div class="footer-right">
+
+                </div>
+
+            </footer>
+        </div>
     </body>
 </html>

@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Applications/MAMP/htdocs/booleanEsercizi/php-google-faq/src/app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! /Applications/MAMP/htdocs/booleanEsercizi/php-google-faq/src/app.scss */"./src/app.scss");
+__webpack_require__(/*! /Users/sabrinadomenico/Desktop/Boolean/boolean-esercizi/sass-painter/src/app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! /Users/sabrinadomenico/Desktop/Boolean/boolean-esercizi/sass-painter/src/app.scss */"./src/app.scss");
 
 
 /***/ })
