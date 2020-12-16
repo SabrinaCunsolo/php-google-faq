@@ -45,6 +45,17 @@ $lista_faq = [
         <title>Google FAQ</title>
     </head>
     <body>
-
+        <?php
+            foreach ($lista_faq as $faq) {
+        ?>
+            <h2><?php
+                echo $faq['domanda'];
+            ?></h2>
+            <p><?php
+                echo $faq['risposta'];
+            ?></p>
+        <?php
+            }
+        ?>
     </body>
 </html>
