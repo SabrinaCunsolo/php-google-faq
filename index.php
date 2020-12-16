@@ -42,6 +42,8 @@ $lista_faq = [
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <!-- css -->
+        <link rel="stylesheet" href="dist/app.css">
         <title>Google FAQ</title>
     </head>
     <body>
