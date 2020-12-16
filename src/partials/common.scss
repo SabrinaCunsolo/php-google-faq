@@ -2,12 +2,47 @@ body {
     font-family: $font_family;
     font-size: $font_size;
     line-height: $line_height;
+    letter-spacing: $letter_spacing;
 }
 
-.container {
-    width: $spacing * 110;
-}
-
-h2, ul {
+.header-bottom h2, ul, i {
     color: $colore_menu;
+}
+
+.header-top-left, .header-top-right, .footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+
+    li {
+        padding: $spacing;
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            color: $colore_menu;
+        }
+    }
+}
+
+
+
+
+
+p {
+    color: $colore_risposta;
+    font-size: 14px;
+    line-height: $line_height;
+    font-weight: bold;
+}
+
+.linea-separatrice {
+    border-bottom: 1px solid #CBCBCB;
 }

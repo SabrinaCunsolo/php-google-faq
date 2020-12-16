@@ -1,0 +1,30 @@
+footer {
+    height: $spacing * 6;
+    background-color: $colore_footer;
+
+    .footer-container {
+        width: $spacing * 100;
+        margin: 0 auto;
+        // padding-top: $spacing * 10;
+    }
+
+    .footer-right {
+        padding-top: $spacing * 3;
+    }
+    i {
+        padding-right: $spacing / 2;
+        color: $colore_menu_hover;
+    }
+
+    select {
+        width: 200px;
+    }
+
+    select:focus {
+    outline-width: 0;
+    }
+
+    li {
+        font-size: $font_size / 1.5;
+    }
+}

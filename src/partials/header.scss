@@ -1,0 +1,39 @@
+.header-top {
+    @include header_style;
+    padding-left: $spacing * 2;
+
+    .logo {
+        padding-top: $spacing * 2.4;
+        margin-right: $spacing / 2;
+    }
+
+    h2 {
+        color: $colore_menu;
+        font-size: 20px;
+    }
+
+    .header-top-right {
+        padding-right: $spacing * 2;
+        margin-top: $spacing * 2;
+
+        i {
+            font-size: 20px;
+            padding: $spacing;
+        }
+    }
+
+}
+
+.header-bottom {
+    @include header_style;
+    margin-bottom: 1px solid black;
+
+    a {
+        font-size: $font_size * 1.1;
+        font-weight: bold;
+        &:hover {
+            color: $colore_menu_hover;
+            border-bottom: 3px solid $colore_menu_hover;
+        }
+    }
+}

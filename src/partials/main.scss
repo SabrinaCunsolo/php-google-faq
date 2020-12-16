@@ -1,0 +1,13 @@
+.container {
+    width: $spacing * 100;
+    margin: 0 auto;
+    padding-top: $spacing * 10;
+}
+
+main {
+    padding-bottom: $spacing * 3;
+}
+
+main a {
+  color: $colore_menu_hover;
+}
